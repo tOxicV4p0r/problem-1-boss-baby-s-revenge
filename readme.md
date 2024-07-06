@@ -21,7 +21,6 @@ To get started with this project, you need to have Node.js installed on your mac
 
 2. Install the required dependencies:
    ```bash
-   cd Problem-1
    npm install
 
 ## Running the Project
