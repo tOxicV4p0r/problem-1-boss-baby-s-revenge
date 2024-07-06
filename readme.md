@@ -1,19 +1,18 @@
 # Boss Baby
 
-The program evaluates a string of actions where 'S' stands for a "shot" and 'R' stands for "revenge". Depending on the sequence of string, it will return either "Bad boy" or "Good boy".
+The program evaluates a string of actions where `S` stands for a **shot** and `R` stands for **revenge**. Depending on the sequence of string, it will return either `Bad boy` or `Good boy`.
 
 ## Description
 
 The function `evaluateActions` in `solution.js` takes a string of actions and analyzes it.
 
 ### Complexity
-Time complexity of O(n)
-
-Space complexity of O(n)
+- Time complexity of `O(n)`
+- Space complexity of `O(n)`
 
 ## Installation
 
-To get started with this project, you need to have Node.js installed on your machine, then follow these steps:
+To get started with this project, you need to have `Node.js` installed on your machine, then follow these steps:
 
 1. Clone the repository:
    ```bash
