@@ -17,7 +17,7 @@ To get started with this project, you need to have Node.js installed on your mac
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/tOxicV4p0r/Assignments.git
+   git clone https://github.com/tOxicV4p0r/problem-1-boss-baby-s-revenge.git
 
 2. Install the required dependencies:
    ```bash
