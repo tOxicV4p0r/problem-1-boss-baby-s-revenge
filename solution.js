@@ -36,7 +36,7 @@ function evaluateActions(actions) {
     // Process each action in the action list
     while (actionList.length > 0) {
 
-        // Get and remove the first array elements
+        // Retrieve and remove the first element from the array
         const action = actionList.shift();
 
         // Validate the action: must be 'S'(shot) or 'R'(revenge)
