@@ -2,16 +2,18 @@
 ![enter image description here](https://github.com/tOxicV4p0r/problem-1-boss-baby-s-revenge/blob/main/resources/images/Goodboy.gif?raw=true)
 
 ## Description
+`Story`
+
+Boss Baby, deals with the kids who shoot water guns at his house. Boss Baby seeks revenge by shooting at least one shot back, but only if the kids have already shot at him first.
 
 The program evaluates a string of actions where `S` stands for a **shot** and `R` stands for **revenge**. Depending on the sequence of string, it will return either `Bad boy` or `Good boy`.
-The function `evaluateActions` in `solution.js` takes a string of actions and analyzes it.
 
-### Complexity
+## Algorithm Explanation
+**Complexity**
 - Time complexity of `O(n)`
 - Space complexity of `O(n)`
 
-## Algorithm Explanation
-
+**Algorithm**
 1. Retrieve and remove the first element from the array.
 
 2. - If the value is `S`, increase `NEED_SHOOT_COUNT` by 1 (Boss Baby needs to seek revenge at least once) and set `IS_NEED_REVENGE` to `True`
@@ -28,6 +30,9 @@ The function `evaluateActions` in `solution.js` takes a string of actions and an
 >Good boy case
 
 ## Installation
+
+#### Prerequisite
+- Node.js
 
 To get started with this project, you need to have `Node.js` installed on your machine, then follow these steps:
 
@@ -48,20 +53,43 @@ or
    ```bash
     node index.js
    ```
-## Testing the Project
-   ```bash
-   npm test
-   ```
-## Example Usage
-You can use this function in a Node.js script as follows:
-   ```javascript
-    const { evaluateActions } = require('./solution');
+## Usage
+### Syntax
+#### evaluateActions(action)
 
-    console.log(evaluateActions('SRSSRRR'));
-    console.log(evaluateActions('RSSRR'));
-    console.log(evaluateActions('SSSRRRRS'));
-    console.log(evaluateActions('SRRSSR'));
-    console.log(evaluateActions('SSRSRRR'));
+```javascript
+ action - List of actions in string `S` or `R`
+ // example: 'SSSRRRSRSR'
+```
+
+#### Output
+```javascript
+// return string value
+`Good boy` or `Bad boy`
+```
+
+### Example
+```javascript
+// Load the functions from the module.
+// CommonJS
+const { evaluateActions } = require('./solution');
+
+const result = evaluateActions('SRSSRRR');
+console.log(result);
+// Good boy
+
+console.log(evaluateActions('RSSRR'));
+// Bad boy
+
+console.log(evaluateActions('SSSRRRRS'));
+// Bad boy
+
+console.log(evaluateActions('SRRSSR'));
+// Bad boy
+
+console.log(evaluateActions('SSRSRRR'));
+// Good boy
+```
 
 
    
