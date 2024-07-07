@@ -57,7 +57,7 @@ or
 ### Syntax
 #### evaluateActions(action)
 
-```javascript
+```bash
  action - List of actions in string `S` or `R`
  // example: 'SSSRRRSRSR'
 ```
