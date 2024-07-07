@@ -6,6 +6,8 @@
 
 Boss Baby, deals with the kids who shoot water guns at his house. Boss Baby seeks revenge by shooting at least one shot back, but only if the kids have already shot at him first.
 
+`Program`
+
 The program evaluates a string of actions where `S` stands for a **shot** and `R` stands for **revenge**. Depending on the sequence of string, it will return either `Bad boy` or `Good boy`.
 
 ## Algorithm Explanation
@@ -76,19 +78,19 @@ const { evaluateActions } = require('./solution');
 
 const result = evaluateActions('SRSSRRR');
 console.log(result);
-// Good boy
+// output : Good boy
 
 console.log(evaluateActions('RSSRR'));
-// Bad boy
+// output : Bad boy
 
 console.log(evaluateActions('SSSRRRRS'));
-// Bad boy
+// output : Bad boy
 
 console.log(evaluateActions('SRRSSR'));
-// Bad boy
+// output : Bad boy
 
 console.log(evaluateActions('SSRSRRR'));
-// Good boy
+// output : Good boy
 ```
 
 
